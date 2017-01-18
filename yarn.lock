@@ -4260,9 +4260,9 @@ react-dom@^15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react-joyride@^1.9.0:
+"react-joyride@git+ssh://git@github.com/mujuni88/react-joyride.git#dev":
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/react-joyride/-/react-joyride-1.9.0.tgz#73f8783fac98e3728d399be8eae4b04096354ef3"
+  resolved "git+ssh://git@github.com/mujuni88/react-joyride.git#b51dabe593b452794807ddca61bc613223acdaeb"
   dependencies:
     nested-property "^0.0.7"
     react-autobind "^1.0"
@@ -5268,13 +5268,9 @@ whatwg-encoding@^1.0.1:
   dependencies:
     iconv-lite "0.4.13"
 
-whatwg-fetch@1.0.0:
+whatwg-fetch@1.0.0, whatwg-fetch@>=0.10.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-1.0.0.tgz#01c2ac4df40e236aaa18480e3be74bd5c8eb798e"
-
-whatwg-fetch@>=0.10.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.1.tgz#078b9461bbe91cea73cbce8bb122a05f9e92b772"
 
 whatwg-url@^4.1.0:
   version "4.3.0"
